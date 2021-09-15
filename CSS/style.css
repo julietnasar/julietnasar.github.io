@@ -1,0 +1,132 @@
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'HK Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+}
+
+p{
+  font-family: 'HK Grotesk', sans-serif;
+  font-weight: 300;
+  font-style: bold;
+}
+
+/* Headings */
+
+.big-heading{
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.medium-heading{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.small-heading{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.subtext{
+  font-weight: 200;
+  font-style: oblique;
+  font-size: 0.7rem;
+}
+
+/* Padding */
+.container-fluid{
+  padding: 5% 15% 7%; /* top right&left bottom */
+}
+
+/* Coloring */
+.colored-section{
+  background-color: #97BACB;
+  color: #FFFAF5;
+}
+
+.white-section{
+  background-color:#FFFAF5;
+  color: #000000;
+}
+
+/* Sections */
+
+
+/* Introduction Section */
+#intro .container-fluid{
+  text-align: left;
+  height: 25%;
+  width: 100%;
+}
+
+.intro-info{
+  height: 25%;
+}
+
+.prof-img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  /* float: left; */
+  border-radius: 50%;
+}
+
+.intro-text{
+  padding-top: 10%
+}
+
+/* Skills Section */
+
+#skills-text{
+  width: 25%;
+  display: inline-block;
+  float: left;
+}
+
+#list-skills-icons{
+  margin-top: 10%;
+
+}
+
+.skills-row{
+  margin-bottom: 15px;
+}
+
+/* Key Projects Section */
+
+#project-cards{
+  color: #000000;
+  padding-top: 5%;
+}
+
+.btn-container{
+  padding-top: 5%;
+}
+
+.proj-img{
+  max-height: 35%;
+}
+
+.proj-card{
+  height: 100%;
+}
+
+/* Contact Me Section */
+
+.container-contact-me{
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.container-contact-btns{
+  padding-top: 5%;
+}
+
+#copyright{
+  padding-top: 10%;
+  text-align: right;
+}

@@ -1,155 +1,214 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>My Portfolio by Juliet Nasar</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+  <meta charset="utf-8">
+  <title>Meet Juliet</title>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>
-							My<br />
-						Portfolio
-					  </h1>
-						<p>by Juliet Nasar </p>
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/juliet-nasar-03b523170" class="icon brands fa-linkedin"><span class="label">linkedIn</span></a></li>
-							<li><a href="https://github.com/julietnasar" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+  <!-- HK Groteque Font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css">
 
-				<!-- Main -->
-					<div id="main">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://github.com/julietnasar/cmc-analysis.git">Contraceptive Method<br />
-									Use Analysis Project</a></h2>
-									<p>This project analyzes the contraceptive method choice dataset which is a subset of the 1987 National Indonesia Contraceptive Prevalence Survey (archive.ics.uci.edu).
-										We will use various predictive models including Logistic Regression, Decision Trees, Support Vector Machines, k-Nearest Neighbors, Cluster Analysis, and Random Forests, we
-										to predict if a woman will use no contraceptives, short-term contraceptives, or long-term contraceptives based off a variety of predictor variables.
-										</p>
-								</header>
-								<a href="https://github.com/julietnasar/cmc-analysis.git" class="image fit"><img src="images/clusterCopy.png" alt="" /></a>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon2.ico">
 
-								<ul class="actions special">
-									<li><a href="https://github.com/julietnasar/cmc-analysis.git" class="button large">Check it out</a></li>
-								</ul>
-							</article>
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/d4081f3e1a.js" crossorigin="anonymous"></script>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/julietnasar/sql-moma.git">Creating a<br />
-										MOMA SQL Database</a></h2>
-									</header>
-									<a href="https://github.com/julietnasar/sql-moma.git" class="image fit"><img src="images/ERD.png" alt="" /></a>
-									<p>This project creates a SQL database from a selection of art found in the Museum of Modern Art.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/julietnasar/sql-moma.git" class="button">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/julietnasar/colorScheme.git">Color Schemer<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/julietnasar/colorScheme.git" class="image fit"><img src="images/oceanPalette.png" alt="" /></a>
-									<p>This project ouputs a color palette with the eight most prominent colors in an image including their hex values and color names</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/julietnasar/colorScheme.git" class="button">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/julietnasar/BallTree.git">
-										Ball Tree Data Structure</a></h2>
-									</header>
-									<a href="https://github.com/julietnasar/BallTree.git" class="image fit"><img src="images/data_structure_connected.jpeg" alt="" /></a>
-									<p>For this project, I created a BallTree class. A BallTree is a data structure capable of working with multiple dimensions. It is particularly useful with KNN searches.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/julietnasar/BallTree.git" class="button">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/julietnasar/BloomFilter.git">
-										Bloom Filter Data Structure</a></h2>
-									</header>
-									<a href="https://github.com/julietnasar/BloomFilter.git" class="image fit"><img src="images/questionMark.jpeg" alt="" /></a>
-									<p>For this project, I created a BloomFilter class. A Bloom Filter is a probabilistic data structure that can tell you, with a specified false postive rate, if a key was inserted into the Bloom Filter or not.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/julietnasar/BloomFilter.git" class="button">Check it out</a></li>
-									</ul>
-								</article>
-							</section>
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" href="CSS/style.css">
 
-					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Based in</h3>
-								<p>New York City Metropolitan Area</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:julietnasar@gmail.com">julietnasar@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/juliet-nasar-03b523170" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/julietnasar" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+</head>
 
-	</body>
+<body>
+
+  <!-- Intro Section -->
+
+  <section id="intro" class="colored-section">
+    <div class="container-fluid">
+      <div class="row intro-info">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="prof-img" src="images/prof_pic_pro.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 intro-text">
+          <h1 class="big-heading">Meet Juliet</h1>
+          <h4 class="small-heading">Data Analytics and Computer Science Student</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Skills Section-->
+  <div class="container-skills white-section container-fluid">
+
+
+    <div id="skills-text" class="col-3">
+      <h1 class="medium-heading">Skills</h1>
+      <h3 class="small-heading">Take a look at some of my favorite programming languages and other tools!</h3>
+    </div>
+
+
+    <!-- List of Skills Icons -->
+    <div id="list-skills-icons" class="container">
+
+      <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-python"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-java"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fas fa-4x fa-database"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-r-project"></i></div>
+
+      </div>
+      <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-bootstrap"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-salesforce"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fas fa-4x fa-file-excel"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-microsoft"></i></div>
+
+      </div>
+      <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-html5"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-css3-alt"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-linux"></i></div>
+        <div class="col-lg-3 col-md-3 col-sm-9"><i class="fab fa-4x fa-github"></i></div>
+
+      </div>
+      <!-- <div class="row">
+
+        <div class="col-3">icon</div>
+        <div class="col-3">icon</div>
+        <div class="col-3">icon</div>
+        <div class="col-3">icon</div>
+
+      </div> -->
+    </div>
+
+
+  </div>
+
+  <!-- Key Projects Section   -->
+  <div class="container-key-projects colored-section container-fluid">
+
+    <h1 class="medium-heading">Featured Projects</h1>
+
+    <!-- List of Key Projects -->
+
+    <div id="project-cards" class="row">
+
+      <div class="col-lg-4">
+        <div class="card proj-card">
+          <div class="card-header">
+            <h3 class="small-heading">CMC Data Analysis</h3>
+          </div>
+          <div class="card-body">
+            <p>Built 19 models to predict contraceptive method choice with the optimal model having a misclassification rate of 27.7%</p>
+            <p class="subtext">Skills Used: R, Statistical Modeling, Data Cleaning & Analysis</p>
+
+            <div class="text-center">
+              <img class="img-fluid proj-img" src="Images/cmcPic.png" alt="proj-img">
+
+              <div class="btn-container">
+                <a role="button" class="btn btn-lg btn-block btn-dark" href="https://github.com/julietnasar/cmc-analysis">Learn More</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card proj-card">
+          <div class="card-header">
+            <h3 class="small-heading">Color Schemer</h3>
+          </div>
+          <div class="card-body">
+            <p>Takes an image and outputs a "color scheme" of the most prominent colors in an image using a clustering algorithm</p>
+            <p class="subtext">Skills Used: Python, Image Processing, Algorithm Development</p>
+
+            <div class="text-center">
+              <img class="img-fluid proj-img" src="Images/colorSchemerImg.png" alt="proj-img">
+
+              <div class="btn-container">
+                <a role="button" class="btn btn-lg btn-block btn-dark" href="https://github.com/julietnasar/colorScheme">Learn More</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card proj-card">
+          <div class="card-header">
+            <h3 class="small-heading">Ball Tree</h3>
+          </div>
+          <div class="card-body">
+            <p>Built a BallTree class, a data structure capable of working in multiple dimensions, with key methods including find and knnFind</p>
+            <p class="subtext">Skills Used: Python, Data Structure Development</p>
+
+            <div class="text-center">
+              <img class="img-fluid proj-img" src="Images/data_structure_connected.jpeg" alt="proj-img">
+
+              <div class="btn-container">
+                <a role="button" class="btn btn-lg btn-block btn-dark" href="https://github.com/julietnasar/BallTree">Learn More</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <!-- Contact Me Section   -->
+
+  <div class="container-contact-me white-section container-fluid">
+
+    <h1 class="medium-heading">Contact Me!</h1>
+
+    <div class="row container-contact-btns">
+
+      <div class="col-lg-4">
+        <a role="button" class="btn contact-btn btn-lg btn-block btn-dark" href="mailto:julietnasar@gmail.com">Email</a>
+      </div>
+      <div class="col-lg-4">
+        <a role="button" class="btn contact-btn btn-lg btn-block btn-dark" href="https://www.linkedin.com/in/juliet-nasar-03b523170">LinkedIn</a>
+      </div>
+      <div class="col-lg-4">
+        <a role="button" class="btn contact-btn btn-lg btn-block btn-dark" href="http://github.com/julietnasar">GitHub</a>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <p>&copy; JulietNasar</p>
+    </div>
+
+
+
+  </div>
+
+
+
+
+</body>
+
 </html>
