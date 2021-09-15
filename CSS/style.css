@@ -38,6 +38,7 @@ p{
 }
 
 /* Padding */
+
 .container-fluid{
   padding: 5% 15% 7%; /* top right&left bottom */
 }
@@ -103,6 +104,10 @@ p{
   padding-top: 5%;
 }
 
+.proj-card{
+  height: 100%;
+}
+
 .btn-container{
   padding-top: 5%;
 }
@@ -111,9 +116,6 @@ p{
   max-height: 35%;
 }
 
-.proj-card{
-  height: 100%;
-}
 
 /* Contact Me Section */
 
