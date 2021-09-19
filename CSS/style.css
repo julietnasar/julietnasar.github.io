@@ -84,28 +84,12 @@ p{
 
 
 
-/* @media (max-width: 240px) {
-   really tiny screens
-}
-@media (min-width: 241px) and (max-width: 319px) {
-   a little bit bigger screens
-}
-@media (min-width: 320px) and (max-width: 767px) {
-   Basically up to, but not including an iPad
-}
-@media (min-width: 768px) {
-   iPad and bigger
-} */
-
-@media (min-width: 1000 px){
-
-  #skills-text{
+#skills-text{
     width: 25%;
     display: inline-block;
     float: left;
   }
 
-}
 
 /* @media (min-width: 1101 px){
   #skills-text{
